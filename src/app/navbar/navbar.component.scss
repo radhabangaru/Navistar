@@ -1,0 +1,144 @@
+
+
+/**search navbar**/
+// .form-control {
+//   margin-right: 91px !important;
+// }
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #f2eeee;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+  .toolbar_lgo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: white;
+    font-weight: 600;
+  }
+  .fill-remaining-space {
+    /*This fills the remaining space, by using flexbox.  
+   Every toolbar row uses a flexbox row layout. */
+   flex: 1 1 auto;
+ }
+ .toolbar{
+  position: absolute;
+  top: 0px;
+  left: 120px;
+  right: 0;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  // background-color:#f2eeee;
+  color: #1976d2 !important;
+  font-weight: 600;
+  font-family: Optimist, Arial, Helvetica, sans-serif;
+}
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  
+
+  .content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  // a,
+  // a:visited,
+  // a:hover {
+  //   color: #1976d2 !important;
+  //   text-decoration: none;
+  // }
+
+  // a:hover {
+  //   // color: #125699;
+  //   color: #1976d2 !important;
+  // }
+
+
+
+  /* Responsive Styles */
+ 
+  .logo-img {
+    // height: 45px;
+    // width: 1000px;
+    // display: inline-block;
+    // vertical-align: middle;
+    background: url('/images/Logo.png') ;
+    // background-size: contain;
+    max-width: 150px;
+    background-color: white;
+    max-height: 100px;
+  }
+  /*navbar bg color*/
+.navbar{
+  background-image: linear-gradient(to right, rgb(202, 223, 243), rgb(25, 118, 210));
+  padding: 0% !important;
+}
+.logoimgs{
+    margin-top: -8%;
+}
+/**Logout-dropdown**/
+
+.Logout-dropdown-menu {
+  left: -33px !important;
+}
+.Logout-dropdown{
+  font-family: Optimist, Arial, Helvetica, sans-serif !important;
+  font-size: 15px !important;
+  margin-left: -25%;
+  color: #ffffff !important;
+}
+/**dropdown**/
+.dropdown-item{
+  font-family: Optimist, Arial, Helvetica, sans-serif !important;
+  font-size: 15px !important;
+}
+.Logout-mainmenu {
+  list-style-type: none !important;
+}
+.navidropdownitems{
+  color: #1976d2 !important;
+}
+.navbar-brand{
+  padding:0px !important;
+}
+.search-lg{
+  padding: 1% 1% 1% 5% !important;
+  margin-right: 65px !important;
+}
+.dropdown-item{
+  color: #1976d2 !important;
+}

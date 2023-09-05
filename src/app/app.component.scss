@@ -1,0 +1,31 @@
+.login-form-main{
+  //   background-color: #408fde;
+    //background-image: linear-gradient(to right, rgb(164, 189, 213), rgb(25, 118, 210));
+    background-image: linear-gradient(to left, rgb(202, 223, 243), rgb(25, 118, 210));
+    width: 40%;
+    text-align: center;
+    margin-left: 28%;
+    padding: 5% 5% 5% 5%;
+    height: 10% !important;
+    border-radius: 10px;
+    background-image: '/images/Logo.png';
+  }
+  .form-label {
+      margin-bottom: 0.5rem;
+      width: 50%;
+      color: white;
+      padding-top: 5px;
+    }
+    .form-outline{
+      display: inline-flex;
+    }
+    .form-label{
+      font-family: Optimist, Arial, Helvetica, sans-serif !important;
+    }
+    .sign-btn{
+      font-family: Optimist, Arial, Helvetica, sans-serif !important;
+    }
+    input .input-textbox{
+    background-color: #ffffff !important;
+    }
+  
